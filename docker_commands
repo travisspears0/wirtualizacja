@@ -1,0 +1,5 @@
+docker build -t travisspears0/laborki:latest .
+docker run -ti travisspears0/laborki
+docker ps -a
+docker start 89cadf9039ab
+docker attach 89cadf9039ab
